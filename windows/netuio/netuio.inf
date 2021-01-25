@@ -28,6 +28,7 @@ HKR,,Icon,,-5
 
 [Standard.NT$ARCH$]
 %netuio.DeviceDesc%=netuio_Device, Root\netuio
+%netuio.nvme.DeviceDesc%=netuio_Device, PCI\CC_010802
 
 [netuio_Device.NT]
 CopyFiles=Drivers_Dir
@@ -71,6 +72,7 @@ Provider = "Vendor"
 ClassName = "Windows UIO"
 DiskName = "DPDK netUIO Installation Disk"
 netuio.DeviceDesc = "netuio Device"
+netuio.nvme.DeviceDesc = "netuio NVM Express Controller"
 netuio.SVCDESC = "netuio Service"
 
 [DMAr.reg]
